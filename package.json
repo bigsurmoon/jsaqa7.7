@@ -1,0 +1,16 @@
+{
+  "name": "7.7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:admin": "cypress run --spec cypress/e2e/admin/admin.cy.js",
+    "test:mainPage": "cypress run --spec cypress/e2e/mainPage/mainPage.cy.js",
+    "test:booking": "cypress run --spec cypress/e2e/admin/booking.cy.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.4.1"
+  }
+}
