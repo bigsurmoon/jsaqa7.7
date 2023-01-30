@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:admin": "cypress run --spec cypress/e2e/admin/admin.cy.js",
-    "test:mainPage": "cypress run --spec cypress/e2e/mainPage/mainPage.cy.js",
-    "test:booking": "cypress run --spec cypress/e2e/admin/booking.cy.js"
+    "test:admin": "cypress run --spec cypress/e2e/admin/admin.cy.js --record --key fdaa739d-0fbc-4d6d-93c1-3d1aed888d65",
+    "test:mainPage": "cypress run --spec cypress/e2e/mainPage/mainPage.cy.js --record --key fdaa739d-0fbc-4d6d-93c1-3d1aed888d65",
+    "test:booking": "cypress run --spec cypress/e2e/admin/booking.cy.js --record --key fdaa739d-0fbc-4d6d-93c1-3d1aed888d65"
   },
   "author": "",
   "license": "ISC",
